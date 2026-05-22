@@ -52,13 +52,11 @@ The tracker was trained and evaluated on sequences from the OTB2015 benchmark da
 - Fast motion scenarios
 
 <div align="center">
-
-<img src="assets/dataset_overview/0001.jpg" width="18%">
-<img src="assets/dataset_overview/0002.jpg" width="18%">
-<img src="assets/dataset_overview/0003.jpg" width="18%">
-<img src="assets/dataset_overview/0005.jpg" width="18%">
-<img src="assets/dataset_overview/0006.jpg" width="18%">
-
+  <img src="assets/dataset_overview/0001.jpg" width="19%">
+  <img src="assets/dataset_overview/0002.jpg" width="19%">
+  <img src="assets/dataset_overview/0003.jpg" width="19%">
+  <img src="assets/dataset_overview/0005.jpg" width="19%">
+  <img src="assets/dataset_overview/0006.jpg" width="19%">
 </div>
 
 ---
