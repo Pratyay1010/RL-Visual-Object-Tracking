@@ -6,7 +6,7 @@
 
 </div>
 
----
+
 
 ## Overview
 
@@ -18,7 +18,7 @@ Instead of relying on handcrafted motion rules or traditional tracking heuristic
 
 The tracker was trained and evaluated on the OTB2015 benchmark, demonstrating how deep visual perception and reinforcement learning can be integrated into an end-to-end tracking framework.
 
----
+
 
 ## Features
 
@@ -29,7 +29,7 @@ The tracker was trained and evaluated on the OTB2015 benchmark, demonstrating ho
 - Modular PyTorch implementation
 - Real-time inference pipeline using OpenCV
 
----
+
 
 ## Tracking Pipeline
 
@@ -37,7 +37,7 @@ The tracker was trained and evaluated on the OTB2015 benchmark, demonstrating ho
   <img src="assets/architecture/architecture.png" width="55%">
 </div>
 
----
+
 
 ## Dataset Overview
 
@@ -59,7 +59,7 @@ The tracker was trained and evaluated on sequences from the OTB2015 benchmark da
   <img src="assets/dataset_overview/0006.jpg" height="140">
 </div>
 
----
+
 
 # Original vs Tracked Results
 
@@ -77,7 +77,7 @@ The tracker was trained and evaluated on sequences from the OTB2015 benchmark da
 
 </div>
 
----
+
 
 ## PPO Tracking Output
 
@@ -93,7 +93,7 @@ The tracker was trained and evaluated on sequences from the OTB2015 benchmark da
 
 </div>
 
----
+
 
 # Project Structure
 
@@ -118,7 +118,7 @@ RL-Visual-Object-Tracking/
 └── .gitignore
 ```
 
----
+
 
 # Installation
 
@@ -148,7 +148,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
----
+
 
 # Run Inference
 
@@ -157,7 +157,7 @@ cd src
 python inference.py
 ```
 
----
+
 
 # Methodology
 
@@ -180,7 +180,7 @@ The tracking problem is formulated as a Markov Decision Process (MDP):
 
 The PPO agent learns a tracking policy through sequential interaction with video frames.
 
----
+
 
 # Future Improvements
 
@@ -190,7 +190,7 @@ The PPO agent learns a tracking policy through sequential interaction with video
 - Automatic object initialization
 - Domain randomization for robustness
 
----
+
 
 # Tech Stack
 
@@ -202,4 +202,4 @@ The PPO agent learns a tracking policy through sequential interaction with video
 - PPO
 - ResNet-18
 
----
+
